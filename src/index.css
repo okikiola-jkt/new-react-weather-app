@@ -30,6 +30,23 @@ h1{
   color: #fff;
 }
 
+.app .search{
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(225, 225, 225, 0.8);
+  background: rgba(225, 225, 225, 0.1);
+}
+
+::placeholder {
+  color: #f8f8f8;
+}
+
 .app:before {
   content: '';
   background: url('./assets/sunset.jpg') no-repeat center center/cover;
